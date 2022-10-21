@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Taylor's Weblog</h1>
+        <p>Musings about my favorite things</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h2>Any Questions?</h2>
+    <section id="contact">
+        <h3>Fill out our Contact Form below:</h3>
+        <form method="get" class="form-example">
+            <div class="form">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form">
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form">
+            <label for="text">Choose a Reason for Contact:</label>
+                <select name="reason" id="reason-list">
+                    <option value="Saying hi">Saying hi</option>
+                    <option value="Look for a Contractor">Looking for a Contractor</option>
+                    <option value="Interested in an Interview">Interested in an Interview</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="text"> Any Additional Comments?: </label>
+                <input type="text" name="text" id="text" required>
+              </div>
+            <div class="form">
+              <input type="submit" value="Submit!">
+            </div>
+          </form>
+        </section>
+</body>
+</html>
