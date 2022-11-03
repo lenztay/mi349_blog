@@ -1,5 +1,5 @@
 html {
-    background: #ffb6c1;
+    background: pink;
 }
 
 body {
@@ -8,7 +8,11 @@ body {
     padding: 40px;
     color: #242424;
     border-top: 10px solid #242424;
-    background: #fff;
+    background: pink;
+}
+
+header{
+  background: hotpink;
 }
 
 h1 {
@@ -19,6 +23,7 @@ h1 {
 h2 {
     font-size: 2em;
     margin: 0;
+    text-align: center;
 }
 
 h3 {
@@ -29,6 +34,25 @@ h3 {
 h4 {
     font-size: 1em;
     margin: 0;
+}
+
+section{
+  background: pink;
+  display: flex;
+}
+
+article{
+  background: lightpink;
+  padding: 20px;
+  margin: 20px;
+}
+
+article:nth-of-type(1) {
+  flex: 1;
+}
+
+article:nth-of-type(2) {
+  flex: 3;
 }
 
 p {
@@ -52,8 +76,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%
-    ;
+    width: 75%;
 }
 
 
@@ -63,6 +86,7 @@ table {
     margin: 20px;
     padding: 20px;
     text-align: center;
+    float: right;
 }
 
 #contact {
@@ -73,4 +97,60 @@ a[href*="taylor"] {
     background-color: silver;
 }
 
+.sticky {
+  background: hotpink;
+  position: sticky;
+  top: 0;
+}
 
+img:nth-of-type(1) {
+    height:500px;
+    width:500px;
+    float:left;
+    margin-right:10px;
+    
+  }
+  
+  img:nth-of-type(3) {
+      height:500px;
+      width:500px;
+      float:right;
+      margin-right:10px;
+      
+    }
+
+  #image1{
+    text-align:center;
+    margin:50px auto;
+    float:left;
+  }
+
+  #image2{
+    text-align:center;
+    margin:50px auto;
+    float:right;
+  }
+
+  #image3{
+    text-align:center;
+    margin:50px auto;
+    float:left;
+  }
+
+  #image4{
+    text-align:center;
+    margin:50px auto;
+    float:left;
+  }
+
+  #image5{
+    text-align:center;
+    margin:50px auto;
+    float:right;
+  }
+
+  #image6{
+    text-align:center;
+    margin:50px auto;
+    float:left;
+  }

@@ -9,8 +9,10 @@
 </head>
 <body>
     <header>
-        <h1>Taylor's Weblog</h1>
-        <p>Musings about my favorite things</p>
+        <div class = "sticky">
+            <h1>Taylor's Weblog</h1>
+            <p>Musings about my favorite things</p>
+        </div>
     </header>
     <nav>
         <ul>
@@ -64,9 +66,18 @@
                 on stage once again; I know it will be just as <strong>shocking</strong> seeing it a second time!
             </p>
             <p>
-                <img src="betj.jpg" alt="Taylor and Sister" width="400" height="500">
-                <img src="themusical.jpg" alt="Beetlejuice Playbill" width="800" height="400">
-                <img src="IMG_4857.jpg" alt="Beetlejuice Playbill" width="400" height="600">
+                <div id="image1">
+                    <img src="betj.jpg" alt="Taylor and Sister" width="400" height="500">
+                    <div class="caption">My Sister and Me</div>
+                </div>
+                <div id="image2">
+                    <img src="themusical.jpg" alt="Beetlejuice" width="800" height="400">
+                    <div class="caption">Beetlejuice the Musical</div>
+                </div>
+                <div id="image3">
+                    <img src="IMG_4857.jpg" alt="Beetlejuice Playbill" width="400" height="600">
+                    <div class="caption">The Beetlejuice Playbill</div>
+                </div>
             </p>
 
         </article>
@@ -85,20 +96,33 @@
                 but most of the items I saw looked like the previous releases. I hope to see more unique and stylish art pieces by <strong>Heaven by Marc Jacobs</strong> in the future, otherwise I do not think the future is bright for them.
             </p>
             <p>
-                <img src="miumiuballet.jpg" alt="Balletcore" width="500" height="600">
-                <img src="bladee.jpg" alt="Bladee x Heaven by Marc Jacobs" width="500" height="700">
-                <img src="dollpurse.jpg" alt="Heaven Doll Purse" width="500" height="500">
+                <div id="image4">
+                    <img src="miumiuballet.jpg" alt="Balletcore" width="500" height="600">
+                    <div class="caption">Miu Miu Ballet Flats</div>
+                </div>
+                <div id="image5">
+                    <img src="bladee.jpg" alt="Bladee x Heaven by Marc Jacobs" width="500" height="700">
+                    <div class="caption">Bladee x Heaven by Marc Jacobs</div>
+                </div>
+                <div id="image6">
+                    <img src="dollpurse.jpg" alt="Heaven Doll Purse" width="500" height="500">
+                    <div class="caption">Doll Purse by Heaven by Marc Jacobs</div>
+                </div>
             </p>
         </article>
     </section>
     <section>
-        <h3>Want to be notified when I post new content?</h3>
-        <form>
-            <label>Sign up for my newsletter:
-                <input type="text">
-            </label>
-            <button>Subscribe</button>
-        </form>
+        <div style = "position:relative; left:1300px; top:2px">
+            <h3>Want to be notified when I post new content?</h3>
+        </div>
+        <div style = "position:relative; left:1350px; top:7px">
+            <form>
+                <label>Sign up for my newsletter:
+                    <input type="text">
+                </label>
+                <button>Subscribe</button>
+            </form>
+        </div>
     </section>
 </body>
 </html>
