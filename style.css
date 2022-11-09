@@ -159,17 +159,11 @@ img:nth-of-type(1) {
       section{
         flex-direction: column;
       }
-      .form{
-        float: left;
-      }
+
       article:nth-of-type(1),article:nth-of-type(2),input[type=submit] {
         width: 100;
         margin-top: 0;
       }
 
-      img{
-        float:right;
-      }
-     
     }
   
