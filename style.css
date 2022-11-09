@@ -166,6 +166,10 @@ img:nth-of-type(1) {
         width: 100;
         margin-top: 0;
       }
+
+      img{
+        float:right;
+      }
      
     }
   
